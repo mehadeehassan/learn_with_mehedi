@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function home() {
 return (
-<div className="min-h-screen bg-white font-sans text-black">
+<div className="min-h-screen bg-gray-900 font-sans text-white">
   <main className="max-w-7xl mx-auto px-4 md:px-10 lg:px-20  grid grid-cols-1 md:grid-cols-12 gap-12 ">
     <div className="md:col-span-8 border-r border-gray-100 pr-0 md:pr-12">
       <div className="w-full h-30 md:h-44 bg-gray-50 overflow-hidden rounded-sm mb-10">
@@ -18,15 +18,15 @@ return (
       </div>
       <h1 className="text-5xl font-bold mb-8">Mehadee Hassan</h1>
       <div className="flex gap-8 border-gray-100 border-b mb-10 ">
-        <button className="pb-4 hover:border-b text-gray-500 hover:text-black font-medium transition-all">Home</button>
-        <Link href={"/category"}><button className="pb-4 hover:border-b text-gray-500 hover:text-black font-medium transition-all">Category</button></Link>
-        <Link href={"/about"}><button className="pb-4 hover:border-b text-gray-500 hover:text-black font-medium transition-all">About</button></Link>
+        <button className="pb-4 hover:border-b text-gray-500 hover:text-purple-400 font-medium transition-all">Home</button>
+        <Link href={"/category"}><button className="pb-4 hover:border-b text-gray-500 hover:text-purple-400 font-medium transition-all">Category</button></Link>
+        <Link href={"/about"}><button className="pb-4 hover:border-b text-gray-500 hover:text-purple-400 font-medium transition-all">About</button></Link>
       </div>
       <div className="space-y-16">
         
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) কি প্রোগ্রামারদের জায়গা দখল করবে?
             </h2>
 
@@ -45,7 +45,7 @@ return (
         </article>
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               ডেটা অ্যানালাইসিস শিখতে কোন কোন স্কিল প্রয়োজন?
             </h2>
 
@@ -62,7 +62,7 @@ return (
         </article>
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               আধুনিক ওয়েব ডেভেলপমেন্টে Next.js কেন অপরিহার্য হয়ে উঠছে?
             </h2>
 
@@ -92,7 +92,7 @@ return (
       </div>
 
       <div>
-        <button className="bg-black text-white rounded-full py-2 px-5 font-medium hover:bg-gray-900  transition">Follow</button>
+        <button className="bg-purple-600 text-white rounded-full py-2 px-5 font-medium hover:bg-purple-800 transition">Follow</button>
       </div>
     </div>
   </main>

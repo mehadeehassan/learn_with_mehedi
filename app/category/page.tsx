@@ -8,14 +8,14 @@ import Link from "next/link";
 
 export default function home() {
 return (
-<div className="min-h-screen bg-white font-sans text-black">
+<div className="min-h-screen bg-gray-900 font-sans text-white">
   <main className="max-w-7xl mx-auto px-4 md:px-10 lg:px-20  grid grid-cols-1 md:grid-cols-12 gap-12">
     <div className="md:col-span-12  border-gray-100 pr-0 md:pr-12 ">
       <div className="space-y-16 mt-40">
         
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) কি প্রোগ্রামারদের জায়গা দখল করবে?
             </h2>
 
@@ -34,7 +34,7 @@ return (
         </article>
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               ডেটা অ্যানালাইসিস শিখতে কোন কোন স্কিল প্রয়োজন?
             </h2>
 
@@ -51,7 +51,7 @@ return (
         </article>
         <article className="flex justify-between items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-700">
+            <h2 className="text-2xl font-bold md:text-2xl mb-2 leading-snug cursor-pointer hover:text-purple-400">
               আধুনিক ওয়েব ডেভেলপমেন্টে Next.js কেন অপরিহার্য হয়ে উঠছে?
             </h2>
 
