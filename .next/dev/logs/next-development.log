@@ -1,4 +1,0 @@
-[00:00:00.827] Server  LOG     ✓ Ready in 610ms
-[00:00:10.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.145] Browser WARN    Image with src "/_next/static/media/next_js.e8817ab1.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
